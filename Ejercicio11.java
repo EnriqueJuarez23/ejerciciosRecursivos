@@ -1,0 +1,15 @@
+class Ejercicio11 {
+    public static void main(String[] args) {
+        System.out.println("ARREGLO");
+        System.out.println("-----------------------------");
+        String [] a = {"Max", "Osvaldo", "Enrique", "Elizabeth", "Lucy", "Monica", "Yanet", "Irais", "Sandra", "Armando"};
+        System.out.println(arreglo(a));
+    }
+        public static String arreglo(String [] a){
+            int i;
+            for(i=0;i<=a.length-1;i++){
+                System.out.println(a[i]);
+                }
+            return a[i];
+        }
+    }
